@@ -5,9 +5,9 @@ author:
 build_requires:
   Test::More: 0.96
 configure_requires:
-  ExtUtils::MakeMaker: 6.30
+  ExtUtils::MakeMaker: 0
 dynamic_config: 0
-generated_by: 'Dist::Milla version v1.0.5, Dist::Zilla version 5.019, CPAN::Meta::Converter version 2.140640'
+generated_by: 'Dist::Milla version v1.0.8, Dist::Zilla version 5.020, CPAN::Meta::Converter version 2.142690'
 license: gpl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,11 +25,11 @@ requires:
   Carp: 0
   List::Util: 0
   Moo: 0
-  Types::Standard: 0
+  Types::Standard: 1.000005
   namespace::clean: 0
   perl: 5.014
 resources:
   bugtracker: https://github.com/MullinsLab/Bio-Cigar/issues
   homepage: https://github.com/MullinsLab/Bio-Cigar
   repository: https://github.com/MullinsLab/Bio-Cigar.git
-version: 1.00
+version: 1.01
